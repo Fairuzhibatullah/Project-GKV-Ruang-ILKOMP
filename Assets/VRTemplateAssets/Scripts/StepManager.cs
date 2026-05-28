@@ -30,10 +30,46 @@ namespace Unity.VRTemplate
 
         public void Next()
         {
-            m_StepList[m_CurrentStepIndex].stepObject.SetActive(false);
+            if (m_StepList == null || m_StepList.Count == 0)
+            {
+                Debug.LogError("Step List is empty or null in StepManager!", this);
+                return;
+            }
+
+            // Deactivate the current step object if it exists
+            Step currentStep = m_StepList[m_CurrentStepIndex];
+            if (currentStep != null && currentStep.stepObject != null)
+            {
+                currentStep.stepObject.SetActive(false);
+            }
+            else
+            {
+                Debug.LogWarning($"Current step object at index {m_CurrentStepIndex} is null or missing!", this);
+            }
+
+            // Move to the next step index
             m_CurrentStepIndex = (m_CurrentStepIndex + 1) % m_StepList.Count;
-            m_StepList[m_CurrentStepIndex].stepObject.SetActive(true);
-            m_StepButtonTextField.text = m_StepList[m_CurrentStepIndex].buttonText;
+
+            // Activate the new current step object if it exists
+            Step newStep = m_StepList[m_CurrentStepIndex];
+            if (newStep != null && newStep.stepObject != null)
+            {
+                newStep.stepObject.SetActive(true);
+            }
+            else
+            {
+                Debug.LogError($"Cannot activate next step object: step at index {m_CurrentStepIndex} is null or missing in StepManager list! Check the inspector.", this);
+            }
+
+            // Update button text field if assigned
+            if (m_StepButtonTextField != null)
+            {
+                m_StepButtonTextField.text = newStep != null ? newStep.buttonText : string.Empty;
+            }
+            else
+            {
+                Debug.LogWarning("m_StepButtonTextField is not assigned in StepManager!", this);
+            }
         }
     }
 }
