@@ -3464,9 +3464,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 762f8e4e4859b304aaf07aeff8195828, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 762f8e4e4859b304aaf07aeff8195828, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1dca961b85fc33942a49a665bc6a6bb0, type: 2}
+      objectReference: {fileID: 2100000, guid: d0735e9aa418a4c4d83ea8e4762520f4, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 762f8e4e4859b304aaf07aeff8195828, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 762f8e4e4859b304aaf07aeff8195828, type: 3}
       propertyPath: m_Name
       value: inverted-sphere
@@ -4168,7 +4176,7 @@ GameObject:
   - component: {fileID: 530275402}
   - component: {fileID: 530275401}
   m_Layer: 0
-  m_Name: SampleScene 2
+  m_Name: SampleScene 4
   m_TagString: GantiScene
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12976,7 +12984,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 2.7e-44, z: 1.7596e-41, w: 0}
+  m_BoundingSphereOverride: {x: 4.75e-43, y: 5.219e-41, z: 2e-44, w: 5.2254e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
