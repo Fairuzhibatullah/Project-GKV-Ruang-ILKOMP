@@ -2,15 +2,31 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    public GameObject mapPopup;
-
-    public void OpenMap()
+    [System.Serializable]
+    public class LocationUI
     {
-        mapPopup.SetActive(true);
+        public string locationID;
+
+        public GameObject button;
+        public GameObject lockIcon;
     }
 
-    public void CloseMap()
+    public LocationUI[] locations;
+
+    void Start()
     {
-        mapPopup.SetActive(false);
+        foreach(LocationUI loc in locations)
+        {
+            if(PlayerPrefs.HasKey(loc.locationID))
+            {
+                loc.button.SetActive(true);
+                loc.lockIcon.SetActive(false);
+            }
+            else
+            {
+                loc.button.SetActive(false);
+                loc.lockIcon.SetActive(true);
+            }
+        }
     }
 }

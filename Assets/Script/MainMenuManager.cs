@@ -11,7 +11,7 @@ public class MainMenuManager : MonoBehaviour
     // START TOUR
     public void StartTour()
     {
-        SceneManager.LoadScene("KomlongScene");
+        SceneManager.LoadScene("DepanFMIPAScene");
         
     }
 
