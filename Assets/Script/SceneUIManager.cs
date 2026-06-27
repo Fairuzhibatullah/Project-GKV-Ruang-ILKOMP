@@ -37,4 +37,49 @@ public class SceneUIManager : MonoBehaviour
     {
         SceneManager.LoadScene("Lab3Scene");
     }
+
+    public void GoToDepanFAPET()
+    {
+        SceneManager.LoadScene("DepanFAPETScene");
+    }
+
+    public void GoToLtDasar()
+    {
+        SceneManager.LoadScene("LtDasarScene");
+    }
+
+    public void GoToLt5()
+    {
+        SceneManager.LoadScene("Lt5Scene");
+    }
+
+    public void GoToWing6()
+    {
+        SceneManager.LoadScene("Wing6Scene");
+    }
+
+    public void GoToWing7()
+    {
+        SceneManager.LoadScene("Wing7Scene");
+    }
+
+    public void GoToWing8()
+    {
+        SceneManager.LoadScene("Wing8Scene");
+    }
+
+    public void GoToDepanLSI()
+    {
+        SceneManager.LoadScene("DepanLSIScene");
+    }
+
+    public void GoToHallB()
+    {
+        SceneManager.LoadScene("HallBScene");
+    }
+
+    public void GoToLabGPK()
+    {
+        SceneManager.LoadScene("LabGPKScene");
+    }
 }
