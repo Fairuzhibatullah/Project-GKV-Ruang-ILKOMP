@@ -27,6 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Lab3Scene.unity
     guid: c784c3641472da74d83b6551382ddd26
   - enabled: 1
+    path: Assets/Scenes/DepanFAPETScene.unity
+    guid: 86c3a32a0af3a7f42b1f2fdffc386c7b
+  - enabled: 1
+    path: Assets/Scenes/LtDasarScene.unity
+    guid: 9055d7a7f2dac554e8955a3d43c631de
+  - enabled: 1
+    path: Assets/Scenes/Lt5Scene.unity
+    guid: a5e71c8f72805914390b1e38ab630aed
+  - enabled: 1
     path: Assets/Scenes/Lab1Scene2.unity
     guid: 59f5e8c8030559942b7977da25ca079e
   m_configObjects:
