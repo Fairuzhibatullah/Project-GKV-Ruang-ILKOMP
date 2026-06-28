@@ -1,285 +1,324 @@
-# Echoes of Ilkom IPB
+# Virtual Tour Eksplorasi Ruangan Ilmu Komputer SSMI IPB University
 
-## Overview
-Echoes of Ilkom IPB is a VR Educational Exploration project developed using Unity 2022 LTS and VR Template. The project introduces the learning environment of IPB University Computer Science students through an interactive 360° virtual tour experience.
+## 📖 Overview
 
-Users can explore several important locations such as:
-- Komlong
-- Fapet classrooms
-- FMIPA practical laboratory
-- LSI Library
+**Virtual Tour Eksplorasi Ruangan Ilmu Komputer SSMI IPB University** merupakan aplikasi **Virtual Reality (VR)** berbasis **Unity** yang dirancang untuk memberikan pengalaman eksplorasi lingkungan Program Studi Ilmu Komputer SSMI IPB University secara interaktif menggunakan panorama 360°.
 
-using panorama 360° environments, hotspot interactions, and teleport-based navigation.
+Aplikasi ini memungkinkan pengguna untuk menjelajahi berbagai fasilitas akademik seperti laboratorium, ruang kelas, dan area umum melalui pengalaman virtual yang imersif. Pengguna juga dapat berinteraksi dengan hotspot informasi, menggunakan peta interaktif, serta mengikuti alur eksplorasi yang terstruktur.
+
+Proyek ini dikembangkan sebagai media pengenalan lingkungan kampus bagi calon mahasiswa, mahasiswa baru, maupun pengunjung.
 
 ---
 
-# Project Type
-VR Interactive Virtual Tour
+# 🎥 Demo
+
+## Video Demonstrasi
+
+> https://drive.google.com/file/d/1h2xfDOqrB3xRPtKGStIj-6XzPkBKqi5r/view?usp=sharing
+
+```
+```
 
 ---
 
-# Main Features
-- 360° panorama exploration
-- VR-based environment visualization
-- Teleport / scene navigation
-- Hotspot interaction system
-- Educational popup information
-- Linear progression exploration
-- Simple immersive UI
+# 🚀 Project Information
+
+| Item          | Description                      |
+| ------------- | -------------------------------- |
+| Project Type  | Virtual Reality Interactive Tour |
+| Engine        | Unity                            |
+| Language      | C#                               |
+| Unity Version | Unity 2022.3 LTS                 |
+| Platform      | Virtual Reality                  |
 
 ---
 
-# Target Platform
-- Windows Desktop
+# ✨ Features
+
+* 🌐 Eksplorasi panorama 360°
+* 📍 Navigasi antar lokasi
+* ℹ️ Hotspot informasi interaktif
+* 🗺️ Interactive map
+* 🔓 Sistem unlock lokasi secara bertahap
+* 📈 Progress eksplorasi
+* 🔊 Ambient background audio
+* 🏠 Main menu & navigation system
+* ✅ Completion popup setelah seluruh lokasi selesai dijelajahi
 
 ---
 
-# Unity Version
-Unity 2022 LTS (VR Template)
+# 🛠️ Technologies
 
-Recommended version:
-- Unity 2022.3.x LTS
-
----
-
-# Technologies Used
-- Unity Engine
-- C#
-- XR Interaction Toolkit
-- Panorama 360° Environment
-- GitHub Version Control
+* Unity Engine
+* C#
+* Unity XR Interaction Toolkit
+* Panorama 360°
+* Git & GitHub
+* Figma
 
 ---
 
-# Folder Structure
+# 📍 Exploration Locations
 
-Assets/
-├── Scenes  
-├── Panorama  
-├── Materials  
-├── Scripts  
-├── Audio  
-├── UI  
-├── Prefabs  
-└── XR  
+## FMIPA Kering
 
----
+1. Depan FMIPA
+2. Golden Corner
+3. Komlong
+4. Lab Komputer 1
+5. Lab Komputer 2
+6. Lab Komputer 3
 
-# Folder Description
+## FAPET
 
-## Scenes
-Contains Unity scenes for each exploration location.
+7. Depan FAPET
+8. Bawah Lift FAPET
+9. Depan Lift Lantai 5
+10. Kelas Wing 6
+11. Kelas Wing 7
+12. Kelas Wing 8
 
-## Panorama
-Stores 360° panorama images.
+## LSI
 
-## Materials
-Contains materials used for panorama sphere rendering.
-
-## Scripts
-Contains all C# scripts.
-
-## Audio
-Contains ambience music and sound effects.
-
-## UI
-Contains buttons, icons, popup UI, and menu assets.
-
-## Prefabs
-Reusable Unity prefabs.
-
-## XR
-XR / VR-related assets and settings.
+13. Depan Gedung LSI
+14. Lab Hall B
+15. Lab GPK
 
 ---
 
-# Main Exploration Flow
+# 🗺️ Exploration Flow
 
-Main Menu (Komlong)  
-↓  
-Explore Komlong  
-↓  
-Fapet Building  
-↓  
-Classroom Exploration  
-↓  
-FMIPA Laboratory  
-↓  
-LSI Library  
-↓  
-Ending Scene  
+```text
+Main Menu
+    │
+    ▼
+Depan FMIPA
+    │
+    ▼
+Golden Corner
+    │
+    ▼
+Komlong
+    │
+    ▼
+Lab Komputer 1
+    │
+    ▼
+Lab Komputer 2
+    │
+    ▼
+Lab Komputer 3
+    │
+    ▼
+Depan FAPET
+    │
+    ▼
+Bawah Lift FAPET
+    │
+    ▼
+Depan Lift Lantai 5
+    │
+    ▼
+Wing 6
+    │
+    ▼
+Wing 7
+    │
+    ▼
+Wing 8
+    │
+    ▼
+Depan Gedung LSI
+    │
+    ▼
+Lab Hall B
+    │
+    ▼
+Lab GPK
+    │
+    ▼
+Completion Popup
+```
 
 ---
 
-# Gameplay Mechanics
+# 🎮 Gameplay Mechanics
 
 ## Exploration
-Users can look around using VR camera controls.
+
+Pengguna menjelajahi setiap lokasi menggunakan panorama 360° sehingga memperoleh pengalaman virtual yang menyerupai kondisi nyata.
 
 ## Hotspot Interaction
-Interactive objects can display:
-- room information
-- faculty information
-- activity descriptions
 
-## Teleport Navigation
-Users move between locations using:
-- buttons
-- teleport hotspots
-- simple map navigation
+Setiap lokasi memiliki hotspot interaktif yang menampilkan:
 
-## Progression
-Some locations are locked until previous exploration is completed.
+* Informasi lokasi
+* Deskripsi fasilitas
+* Informasi akademik
 
----
+## Navigation
 
-# Development Scope (MVP)
+Navigasi tersedia melalui:
 
-This project intentionally focuses on:
-- simple VR interaction
-- panorama exploration
-- educational information delivery
+* Next Button
+* Back Button
+* Interactive Map
+* Home Button
 
-The project DOES NOT include:
-- multiplayer
-- combat system
-- complex AI
-- open world movement
-- advanced physics
+## Progression System
+
+Lokasi berikutnya akan terbuka setelah pengguna menyelesaikan eksplorasi lokasi sebelumnya.
+
+## Completion System
+
+Setelah seluruh lokasi berhasil dikunjungi, pengguna akan memperoleh popup penyelesaian dan dapat:
+
+* Kembali ke Main Menu
+* Melanjutkan eksplorasi secara bebas
 
 ---
 
-# Panorama Requirements
+# 📂 Main Scripts
 
-Recommended format:
-- JPG / PNG
-- 2:1 aspect ratio preferred
-- High resolution panorama
+### SceneUIManager
 
-Example:
-- 11904 x 5952
-- 9008 x 2144
+Mengelola:
 
-Panorama images are rendered using:
-- inverted sphere mapping
+* Scene Navigation
+* Popup
+* Main Menu
+* Completion Popup
 
 ---
 
-# Development Roadmap
+### ProgressManager
+
+Mengelola:
+
+* Progress eksplorasi
+* Penyimpanan menggunakan PlayerPrefs
+* Progress popup
+
+---
+
+### InfoUnlockManager
+
+Mengelola:
+
+* Unlock tombol **Next** setelah popup informasi selesai dibaca
+
+---
+
+### MapManager
+
+Mengelola:
+
+* Lock & Unlock lokasi pada Interactive Map
+
+---
+
+### AudioManager
+
+Mengelola:
+
+* Ambient Audio
+* Mute / Unmute
+
+---
+
+# 🖼️ Panorama Requirements
+
+### Format
+
+* JPG
+* PNG
+
+### Aspect Ratio
+
+```
+2 : 1
+```
+
+### Recommended Resolution
+
+* 11904 × 5952
+* 9008 × 2144
+
+### Rendering Method
+
+* Inverted Sphere Mapping
+
+---
+
+# 📅 Development Roadmap
 
 ## Week 12
-- Project planning revision
-- Determine exploration flow
-- Determine locations
+
+* Project planning
+* Menentukan lokasi
+* Menyusun alur eksplorasi
 
 ## Week 13
-- Setup Unity VR project
-- Collect panorama assets
-- Create basic VR scenes
+
+* Setup Unity Project
+* Pengambilan panorama
+* Pembuatan scene awal
 
 ## Week 14
-- Implement panorama environment
-- Create teleport navigation
-- Add hotspot interaction
+
+* Implementasi panorama
+* Sistem navigasi
+* Hotspot interaktif
 
 ## Week 15
-- UI implementation
-- Add audio ambience
-- Polish interaction system
+
+* Implementasi UI
+* Interactive Map
+* Audio System
+* Progression System
 
 ## Week 16
-- Testing and bug fixing
-- Final build
-- Presentation preparation
+
+* Testing
+* Bug Fixing
+* Persiapan Presentasi
 
 ---
 
-# Team
-FairuzHebat Team
+# 🎯 Project Scope (MVP)
 
-Members:
-- Faisal Mumtaz Hidayat
-- Fairuz Hibatullah
-- Muh Arifaushan
-- Muhammad Ammar Rizky
+## Included
 
----
+* Panorama-based exploration
+* Educational information
+* Guided virtual tour
+* Lightweight VR interaction
 
-# Git Workflow
+## Not Included
 
-Recommended branch naming:
-- feature/ui
-- feature/navigation
-- feature/hotspot
-- fix/bugname
-
-Commit example:
-feat: add hotspot popup system  
-fix: panorama material issue
+* Multiplayer
+* Combat System
+* Artificial Intelligence
+* Open World Movement
+* Complex Physics Simulation
 
 ---
 
-# Additional Instructions for AI Assistant
+# 👥 Development Team
 
-This repository may include a learning module or tutorial file named:
+**FairuzHebat Team**
 
-- `projectunity.pdf`
-
-This PDF contains:
-- lecture materials
-- Unity VR setup tutorial
-- panorama implementation guidance
-- workflow instructions provided by the lecturer
-
-Before giving suggestions or generating code, please:
-- read and understand the contents of `projectunity.pdf`
-- follow the workflow and architecture explained in the module whenever possible
-- prioritize approaches consistent with the lecturer's tutorial
-- avoid conflicting implementations unless necessary
-
-The project uses:
-- Unity 2022 LTS
-- VR Template
-- Panorama 360° environment
-- XR Interaction Toolkit
-
-When helping develop this project:
-- prioritize simplicity and MVP scope
-- avoid overly complex VR systems
-- use lightweight interactions
-- maintain compatibility with Unity 2022 LTS
-- focus on panorama-based VR exploration
-- avoid unnecessary dependencies
-
-Preferred systems:
-- scene-to-scene navigation
-- XR Interaction Toolkit
-- simple popup UI
-- teleport interaction
-- modular scripts
-
-Avoid:
-- multiplayer systems
-- heavy physics simulation
-- procedural generation
-- advanced networking
-- unnecessary optimization complexity
-
-Important:
-This project is an educational VR virtual tour, not a complex VR game.
-
-The primary focus is:
-- panorama 360° visualization
-- hotspot interaction
-- teleport navigation
-- educational information popup
-- immersive exploration experience
-
-Please explain implementations clearly and use beginner-friendly approaches suitable for university students and a 5-week MVP project.
+* Faisal Mumtaz Hidayat
+* Fairuz Hibatullah
+* Muh Arifaushan
+* Muhammad Ammar Rizky
 
 ---
 
-# Credits
-Developed as Final Project for:
-Computer Graphics and Visualization Course  
-IPB University
+# 🎓 Credits
+
+Proyek ini dikembangkan sebagai **Final Project** pada mata kuliah Grafika Komputer dan Visualisasi (KOM1304).
+
+**Program Studi Ilmu Komputer**
+**Sekolah Sains Data, Matematika, dan Informatika**
+**IPB University**

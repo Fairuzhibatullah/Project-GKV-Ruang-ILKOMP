@@ -4,6 +4,7 @@ public class PopupManager : MonoBehaviour
 {
     public GameObject mapPopup;
     public GameObject infoPopup;
+    public GameObject completionPopup;
 
     public void OpenMap()
     {
@@ -23,5 +24,15 @@ public class PopupManager : MonoBehaviour
     public void CloseInfo()
     {
         infoPopup.SetActive(false);
+    }
+
+    public void OpenCompletionPopUp()
+    {
+        completionPopup.SetActive(true);
+    }
+
+    public void ContiunueExplore()
+    {
+        completionPopup.SetActive(false);
     }
 }

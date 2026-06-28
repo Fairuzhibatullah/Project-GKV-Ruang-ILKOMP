@@ -3452,7 +3452,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 487470266}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToDepanLSI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &487470266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3573,7 +3585,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 508102650}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToHallB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &508102650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5903,7 +5927,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 796572559}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLabGPK
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &796572559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7883,7 +7919,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 55d0d8e4f09dc154a9d6aadebdc56b11, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.42
+  m_Volume: 0.67
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8522,6 +8558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapPopup: {fileID: 648783040}
   infoPopup: {fileID: 1365384272}
+  completionPopup: {fileID: 0}
 --- !u!114 &1179321235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8599,6 +8636,15 @@ MonoBehaviour:
   - locationID: Wing8
     button: {fileID: 141750016}
     lockIcon: {fileID: 1485037955}
+  - locationID: DepanLSI
+    button: {fileID: 487470263}
+    lockIcon: {fileID: 71673542}
+  - locationID: Hallb
+    button: {fileID: 508102647}
+    lockIcon: {fileID: 546654925}
+  - locationID: LabGPK
+    button: {fileID: 796572556}
+    lockIcon: {fileID: 1432597027}
 --- !u!1 &1228314700
 GameObject:
   m_ObjectHideFlags: 0
