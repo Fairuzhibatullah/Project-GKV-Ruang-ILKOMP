@@ -475,7 +475,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 103407180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLab3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &103407180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,7 +876,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 141750019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToWing8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &141750019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2006,7 +2030,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 355443558}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLab2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &355443558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2245,7 +2281,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 367793374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToKomlong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &367793374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2505,7 +2553,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 398130984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToWing6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &398130984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3392,7 +3452,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 487470266}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToDepanLSI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &487470266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3513,7 +3585,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 508102650}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToHallB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &508102650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4023,7 +4107,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 549432391}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLtDasar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &549432391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4080,7 +4176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &578806624
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4276,7 +4372,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 591563486}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToWing7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &591563486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5819,7 +5927,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 796572559}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLabGPK
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &796572559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7024,7 +7144,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 896572059}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLt5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &896572059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8313,7 +8445,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1168609366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToDepanFAPET
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1168609366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8464,6 +8608,42 @@ MonoBehaviour:
   - locationID: Komlong
     button: {fileID: 367793371}
     lockIcon: {fileID: 1252340967}
+  - locationID: Lab1
+    button: {fileID: 2062236868}
+    lockIcon: {fileID: 681151983}
+  - locationID: Lab2
+    button: {fileID: 355443555}
+    lockIcon: {fileID: 163566205}
+  - locationID: Lab3
+    button: {fileID: 103407177}
+    lockIcon: {fileID: 255728946}
+  - locationID: DepanFAPET
+    button: {fileID: 1168609363}
+    lockIcon: {fileID: 1540075037}
+  - locationID: LtDasar
+    button: {fileID: 549432388}
+    lockIcon: {fileID: 2092079809}
+  - locationID: Lt5
+    button: {fileID: 896572056}
+    lockIcon: {fileID: 418030131}
+  - locationID: Wing6
+    button: {fileID: 398130981}
+    lockIcon: {fileID: 663528424}
+  - locationID: Wing7
+    button: {fileID: 591563483}
+    lockIcon: {fileID: 1988971134}
+  - locationID: Wing8
+    button: {fileID: 141750016}
+    lockIcon: {fileID: 1485037955}
+  - locationID: DepanLSI
+    button: {fileID: 487470263}
+    lockIcon: {fileID: 71673542}
+  - locationID: Hallb
+    button: {fileID: 508102647}
+    lockIcon: {fileID: 546654925}
+  - locationID: LabGPK
+    button: {fileID: 796572556}
+    lockIcon: {fileID: 1432597027}
 --- !u!1 &1228314700
 GameObject:
   m_ObjectHideFlags: 0
@@ -9756,7 +9936,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1506688625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToDepanFMIPA
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1506688625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11037,7 +11229,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1683793362}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToGC
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1683793362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12953,7 +13157,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2062236871}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToLab1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2062236871
 MonoBehaviour:
   m_ObjectHideFlags: 0

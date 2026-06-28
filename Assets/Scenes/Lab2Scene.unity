@@ -4242,7 +4242,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1179321233}
         m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
-        m_MethodName: GoToLab2
+        m_MethodName: GoToLab3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7252,7 +7252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lab KOM 1
+  m_text: Lab KOM 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8345,7 +8345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 331d890c1c9d373448d6499c71c89f11, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8b0618b993074754cb729f2cba760489, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -8571,7 +8571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressPopup: {fileID: 1159203745}
-  locationID: Lab1
+  locationID: Lab2
 --- !u!114 &1179321236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8585,7 +8585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextButton: {fileID: 578806623}
-  locationID: Lab1
+  locationID: Lab2
 --- !u!114 &1179321237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9235,7 +9235,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6aa81e74731eabe43b25ec40e2c7c841, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f99b135b547e8d046b01fe5a1fe1cfb2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10882,7 +10882,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 762f8e4e4859b304aaf07aeff8195828, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1dca961b85fc33942a49a665bc6a6bb0, type: 2}
+      objectReference: {fileID: 2100000, guid: 56909e97a9d1ee6479cd3f45694c2408, type: 2}
     - target: {fileID: 919132149155446097, guid: 762f8e4e4859b304aaf07aeff8195828, type: 3}
       propertyPath: m_Name
       value: inverted-sphere
@@ -12604,7 +12604,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1179321233}
         m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
-        m_MethodName: GoToKomlong
+        m_MethodName: GoToLab1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
