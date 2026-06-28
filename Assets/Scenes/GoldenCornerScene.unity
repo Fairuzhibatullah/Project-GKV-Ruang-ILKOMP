@@ -876,7 +876,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 141750019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToWing8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &141750019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,7 +2553,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 398130984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToWing6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &398130984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4324,7 +4348,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 591563486}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1179321233}
+        m_TargetAssemblyTypeName: SceneUIManager, Assembly-CSharp
+        m_MethodName: GoToWing7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &591563486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8554,6 +8590,15 @@ MonoBehaviour:
   - locationID: Lt5
     button: {fileID: 896572056}
     lockIcon: {fileID: 418030131}
+  - locationID: Wing6
+    button: {fileID: 398130981}
+    lockIcon: {fileID: 663528424}
+  - locationID: Wing7
+    button: {fileID: 591563483}
+    lockIcon: {fileID: 1988971134}
+  - locationID: Wing8
+    button: {fileID: 141750016}
+    lockIcon: {fileID: 1485037955}
 --- !u!1 &1228314700
 GameObject:
   m_ObjectHideFlags: 0

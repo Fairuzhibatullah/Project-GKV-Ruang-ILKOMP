@@ -28,7 +28,7 @@ EditorBuildSettings:
     guid: c784c3641472da74d83b6551382ddd26
   - enabled: 1
     path: Assets/Scenes/DepanFAPETScene.unity
-    guid: 86c3a32a0af3a7f42b1f2fdffc386c7b
+    guid: 8145bf6e14ca5fd40b18bb7c2ddc84e2
   - enabled: 1
     path: Assets/Scenes/LtDasarScene.unity
     guid: 9055d7a7f2dac554e8955a3d43c631de
@@ -36,8 +36,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Lt5Scene.unity
     guid: a5e71c8f72805914390b1e38ab630aed
   - enabled: 1
-    path: Assets/Scenes/Lab1Scene2.unity
-    guid: 59f5e8c8030559942b7977da25ca079e
+    path: Assets/Scenes/Wing6Scene.unity
+    guid: 86c3a32a0af3a7f42b1f2fdffc386c7b
+  - enabled: 1
+    path: Assets/Scenes/Wing7Scene.unity
+    guid: 0df910d1d3a4f074fb386906a575ba54
+  - enabled: 1
+    path: Assets/Scenes/Wing8Scene.unity
+    guid: 8702067dc85fa57498bf5ff5f8a24757
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
