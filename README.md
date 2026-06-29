@@ -1,5 +1,134 @@
 # Virtual Tour Eksplorasi Ruangan Ilmu Komputer SSMI IPB University
 
+# 📌 Project Setup
+
+Dokumen ini menjelaskan langkah-langkah untuk menjalankan proyek Unity dengan benar.
+
+---
+
+# 📋 Persyaratan
+
+Sebelum membuka proyek, pastikan perangkat lunak berikut telah terpasang:
+
+* Unity **2022.3 LTS** + **VR Template**
+* Visual Studio atau Visual Studio Code *(opsional untuk pengembangan script C#)*
+* Git
+* Git LFS
+
+---
+
+# 📥 Clone Repository
+
+Clone repository ke komputer Anda menggunakan perintah berikut:
+
+```bash
+git clone <repository-url>
+```
+
+Masuk ke folder proyek:
+
+```bash
+cd <repository-folder>
+```
+
+---
+
+# ⚠️ Penting: Unduh Asset Git LFS
+
+Proyek ini menggunakan **Git Large File Storage (Git LFS)** untuk menyimpan aset berukuran besar seperti:
+
+* Panorama 360°
+* Texture
+* Audio
+* Gambar UI
+* Media lainnya
+
+Setelah proses clone selesai, **WAJIB** jalankan perintah berikut:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+> **Jangan melewati langkah ini.**
+
+Jika langkah ini tidak dilakukan, kemungkinan akan muncul masalah seperti:
+
+* Asset panorama tidak muncul
+* Texture menjadi rusak atau berwarna ungu (missing texture)
+* Audio tidak tersedia
+* Unity gagal mengimpor asset
+* Error seperti:
+
+```text
+Could not create asset
+File could not be read
+```
+
+Pastikan seluruh file Git LFS telah berhasil terunduh sebelum membuka proyek di Unity.
+
+---
+
+# 🎮 Persyaratan Unity
+
+Proyek ini dikembangkan menggunakan:
+
+* Unity **2022.3 LTS**
+* XR Interaction Toolkit
+* Unity VR Template
+
+Apabila Unity menampilkan notifikasi mengenai package yang belum terpasang, buka:
+
+```
+Window
+    └── Package Manager
+```
+
+Kemudian pastikan package berikut telah terinstal:
+
+* XR Interaction Toolkit
+* XR Core Utilities
+* Input System
+
+---
+
+# 🚀 Membuka Proyek
+
+Setelah seluruh asset selesai diunduh dan package telah terpasang:
+
+1. Buka **Unity Hub**
+2. Pilih **Add Project**
+3. Arahkan ke folder proyek yang telah di-clone
+4. Buka menggunakan **Unity 2022.3 LTS**
+
+Unity akan melakukan proses import asset pada saat pertama kali dibuka. Proses ini mungkin memerlukan beberapa menit tergantung spesifikasi komputer.
+
+---
+
+# ✅ Verifikasi
+
+Apabila seluruh langkah telah dilakukan dengan benar, proyek akan berhasil dimuat dengan komponen berikut:
+
+* Panorama 360°
+* Lingkungan Virtual
+* User Interface (UI)
+* Audio
+* Sistem Interaksi VR
+* Hotspot
+* Navigation System
+* Interactive Map
+* Progress System
+
+---
+
+# ⚠️ Catatan
+
+* Gunakan **Unity 2022.3 LTS** agar kompatibilitas proyek tetap terjaga.
+* Jangan menghapus folder **Library** ketika Unity masih berjalan.
+* Pastikan seluruh asset Git LFS telah berhasil diunduh sebelum melakukan commit atau menjalankan proyek.
+* Jika muncul error terkait package XR, buka **Package Manager** dan instal package yang diperlukan sebelum menjalankan scene.
+
+---
 ## 📖 Overview
 
 **Virtual Tour Eksplorasi Ruangan Ilmu Komputer SSMI IPB University** merupakan aplikasi **Virtual Reality (VR)** berbasis **Unity** yang dirancang untuk memberikan pengalaman eksplorasi lingkungan Program Studi Ilmu Komputer SSMI IPB University secara interaktif menggunakan panorama 360°.
